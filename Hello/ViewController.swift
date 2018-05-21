@@ -39,19 +39,19 @@ class ViewController: UIViewController {
     }
     
     //Instantiate and set actions for Sign Up
-    @IBAction func SignUp(sender: UIButton) {
-        
-        let alertController = UIAlertController(title: "Sign Up",
-                                                message: "su",
-                                                preferredStyle: UIAlertControllerStyle.alert)
-        
-        alertController.addAction(UIAlertAction(title: "OK",
-                                                style: UIAlertActionStyle.default,
-                                                handler: nil))
-        
-        present(alertController,
-                animated: true,
-                completion: nil)
-    }
+//    @IBAction func SignUp(sender: UIButton) {
+//
+//        let alertController = UIAlertController(title: "Sign Up",
+//                                                message: "su",
+//                                                preferredStyle: UIAlertControllerStyle.alert)
+//
+//        alertController.addAction(UIAlertAction(title: "OK",
+//                                                style: UIAlertActionStyle.default,
+//                                                handler: nil))
+//
+//        present(alertController,
+//                animated: true,
+//                completion: nil)
+//    }
 
 }
